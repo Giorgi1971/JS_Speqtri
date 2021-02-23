@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zakinator</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/game.css">
+    <link rel="stylesheet" href="fonts/arial-geo-bolditalic-master/css/alk-rounded-mtav-med.min.css">
+    <link rel="stylesheet" href="fonts/arial-geo-bolditalic-master/css/bpg-le-studio-04-caps.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+    <link rel="stylesheet" href="style/animate.css">
+</head>
+
+<body>
+    <div class="container">
+        <a href="index.html"><img class="logo" src="img/zakinator.png" alt="logo"></a>
+        <div class="lang">
+            <p>ქართული</p> 
+            <img src="img/lang/geo.png" alt="geo">
+            <div class="changLang">
+                <ul>
+                    <li><a href="eng.html">English <img class="flag" src="img/lang/eng.png" alt="eng"></a></li>
+                    <li><a href="rus.html">русский <img class="flag rus" src="img/lang/rus.png" alt="rus"> </a></li>
+                    <li><a href="index.html">ქართული<img class="flag geo" src="img/lang/geo.png" alt="geo"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mini_container">
+            <img class="zaki" src="img/defi.png" alt="logo">
+            <div class="quest">
+                <div class="questNumber">1</div>
+                <p class="animated fadeInLeft" id="question"> შენს მიერ ჩაფიქრებული პერსონაჟი არსებობს?</p>
+            </div>
+            <div class="answers">
+                <ul>
+                    <li class="animated flipInX"  id="yes" onclick="dachera();"><a href="javascript:void(0);">კი</a></li>
+                    <li class="animated flipInX"  id="no"><a href="javascript:void(0);">არა</a></li>
+                    <li class="animated flipInX" id="dontKnow" ><a href="javascript:void(0);">არ ვიცი</a></li>
+                    <li class="animated flipInX" id="probably" ><a href="javascript:void(0);">ალბათ</a></li>
+                    <li class="animated flipInX" id="probablyNot"><a href="javascript:void(0);">ალბათ არა</a></li>
+                </ul>
+            </div>
+
+            <div class="top"></div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jq.js"></script>  
+    <script src="js/js.js"></script>
+</body>
+
+</html>

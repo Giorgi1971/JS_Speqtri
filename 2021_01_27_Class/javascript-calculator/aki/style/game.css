@@ -1,0 +1,168 @@
+.logo{
+  width: 200px;
+  cursor: pointer;
+  margin: 20px 0 0 150px;
+    
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lang {
+    width: 150px;
+    height: 30px;
+    background: #D2DDEA;
+    border-radius: 5px;
+    margin: 10px 0 0 155px;
+    text-align: center;
+    color: #214C61;
+    cursor: pointer;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    
+}
+.lang img {
+    width: 20px;
+    margin-top: 5px;
+}
+.lang p {
+    float: left;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.changLang {
+    margin-top: 20px;
+    width: 150px;
+    z-index: 10000;
+    position: relative;
+    background: #D2DDEA;
+    border-radius: 2px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.changLang li {
+    height: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.changLang ul li a {
+    text-decoration: none;
+    color:#214C61;
+    padding: 10px 50px 10px 15px;
+    font-size: 14px;
+    
+}
+.changLang ul {
+    list-style-type: none;
+}
+
+.changLang li:hover {
+    background: #f2f5f6;
+    
+}
+.flag {
+    position: relative;
+    left: 35px;
+    top: 5px;
+}
+.rus {
+    left: 28px;
+}
+.geo {
+    left: 21px;
+}
+
+.mini_container {
+    width: 100%;
+    height: 550px;
+    background:rgba(255,255,255,0.36) no-repeat;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    z-index: 1;
+}
+.zaki {
+    width: 330px;
+    margin: -10px 0 0 100px;
+    float: left;
+
+}
+.zakinator {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+.questNumber {
+    width: 55px;
+    height: 100px;
+    background: #174357;
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+    line-height: 100px;
+}
+
+.quest {
+    width: 350px;
+    height: 100px;
+    background: rgba(255,255,255,0.7);
+    box-shadow: 0 0 30px 2px #7d92a7;
+    color: #214C61;
+    float: left;
+    margin: 20px 0 0 -30px;
+    overflow: hidden;
+}
+.quest p {
+    margin-left: 60px;
+    padding: 20px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 20px;
+}
+.answers {
+    width: 200px;
+    background: #D2DDEA;
+    border-radius: 2px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    float: left;
+    margin: 170px 0 0 -300px;
+    padding: 10px 0; 
+
+}
+.answers ul {
+    list-style-type: none;
+  
+}
+.answers ul li {
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+    transform: 0.5s;
+    transition: background-color 0.5s linear;
+    -webkit-transition: background-color 0.5s linear;
+    -moz-transition: background-color 0.5s linear;
+    -o-transition: background-color 0.5s linear;
+  
+}
+.answers li:hover {
+    background: #f2f5f6;
+
+}
+
+.answers li a {
+    text-decoration: none;
+    color: #214C61;
+    font-family: "ALK Rounded Mtav Med", sans-serif; 
+}

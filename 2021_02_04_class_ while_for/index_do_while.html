@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<hr>
+<script>
+        var i = 10;
+        count = 0;
+        total = 0;
+        document.write('ვიწყებთ ციკლს.<br>')
+        do{
+            document.write('i = '+ i + '.<br>');
+            total += i;
+            i+=2;
+            count++;
+        } while(i<15);
+        document.write('ციკლი დამთავრდა. <br> ციკლი შესრულდა '+ count + '-ჯერ. <br>')
+        document.write( 'ჯამი ყველა i -ს უდრის ' + total + '.<br>')
+        console.log('ვსწავლობთ ციკლს. გამოგვაქვს ციკლის რაოდენობა და მნიშვნელობების ჯამი')
+    </script>
+
+<hr>
+<hr>
+
+<script>
+    var a = 2+2;
+    switch (a) {
+        case 3: case 5: alert('3 araaa!'); alert('arc 5-s swori!');
+            break;
+        case 4:alert('4 sworia 4');
+        break;
+        default: alert('moumateT matematikaSi')
+            break;
+    }
+
+</script>
+<script>
+    age = 13;
+    while (age<17) {
+
+        document.write(age + ' წლის მოზარდი არის თინეიჯერი. <br>');
+        age++;
+    }
+    if (age == 20){
+        document.write('20 წლიდან უკვე სრულწლოვანია');
+        }
+    
+</script>
+<hr>
+<script>
+    var i = 1;
+    total = 0;
+    while (i<6) {
+        if (total+i > 12){
+            break;
+        }
+        total += i;
+        i++;
+    }
+    document.write('შესაკრები რიცხვების ჯამია '+total);
+</script>
+
+</body>
+</html>

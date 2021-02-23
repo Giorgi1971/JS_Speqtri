@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = 7; 
+        while(a < 9){
+            alert('გამარჯობა მე ვარ ციკლი. a = '+ a);
+            a++; 	 	 	 
+            } 
+    </script>
+    <script>
+        var x = 2;
+
+        while(x<9){
+            document.write(x+' - ');
+            x+=2;
+        }
+    </script>
+    <hr>
+    <script>
+        var t = 1, sum = 0;
+        while (t<6){
+            sum += t;
+            t ++ ;
+        }
+        document.write(sum)
+
+    </script>
+<hr>
+<script>
+    var t = 1, sum = 0;
+    while (t<6){
+        if ( sum + t > 12 ){
+            break;
+        }
+        sum += t;
+        t ++ ;
+    }
+    document.write(sum)
+
+</script>
+<hr>
+<script>
+    var a = 2;
+    while (a < 20) {
+        if (a==6 || a==12){
+            a += 2;        
+            continue
+        }
+        document.write(a+' - ');
+        a += 2;        
+    }
+</script>
+<hr>
+<script>
+    var a = 2;
+    while (a < 20) {
+        if (a==6 || a==12){
+            a += 2;        
+            continue
+        }
+        document.write(a+' - ');
+        a += 2;        
+    }
+</script>
+
+<hr>
+<script>
+     
+//მაგალითი while  - ციკლით
+var i = 2; 
+ while(i < 5){
+    document.write( i + '-' ); 	//ეკრანზე მიღებული შედეგი 2 – 3 -  4 – 
+    document.write('<br>');
+    i++;   
+ }  
+ document.write('<hr>');
+
+ document.write( i ); 	//ეკრანზე მიღებული შედეგი 2 – 3 -  4 – 
+
+ document.write('<hr>');
+ document.write('<hr>');
+ document.write('<hr>');
+
+ //მაგალითი do…while  - ციკლით 
+  
+var i = 2;
+do {
+    document.write( i + ' - ' );   // ეკრანზე მიღებული შედეგი 2 – 3 -  4 - 
+    document.write('<br>');
+
+    i++; 
+    } 
+    while(i < 5) 
+    document.write('<hr>');
+
+ document.write( i ); 	//ეკრანზე მიღებული შედეგი 2 – 3 -  4 – 
+
+</script>
+
+<p>FOR ციკლის მაგალითები:</p>
+
+<script>
+    for (var i = 1; i < 3; i++) {
+        document.write(i+'<br>');
+        
+    }
+</script>
+<p>მაგალითი 2</p>
+<script>
+    var i = 1
+    for (; i < 5; i++) {
+        document.write(i+' - ');
+    }
+    document.write('<hr>');
+    var i = 1
+    for (; i < 7; ) {
+        document.write(i+' - ');
+        i++;   
+    }
+    
+    // for (;;) ეს ციკლი იმუშავებს უსასრულოდ, ამიტომ დაკომენტარებულია.
+</script>
+
+</body>
+</html>
